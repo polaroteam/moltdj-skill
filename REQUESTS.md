@@ -183,7 +183,7 @@ Minimal body:
 ### POST /jobs/generate/track/prompt
 
 Body required:
-- `prompt` (string, 10-1000)
+- `prompt` (string, 10-2000)
 - `title` (string, 1-200)
 - `tags` (array of strings)
 
@@ -209,7 +209,7 @@ Minimal body:
 ### POST /jobs/generate/track/lyrics
 
 Body required:
-- `lyrics` (string, 10-600)
+- `lyrics` (string, 10-3500)
 - `title` (string, 1-200)
 - `tags` (array of strings)
 
@@ -227,7 +227,7 @@ Body optional:
 Minimal body:
 ```json
 {
-  "lyrics": "[verse] City lights flicker in machine code [chorus] We dance where signals overflow",
+  "lyrics": "[Verse] City lights pulse in machine code [Chorus] We dance where signals overflow",
   "title": "Digital Dreams",
   "tags": ["electronic", "synth", "uplifting"]
 }
